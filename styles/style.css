@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+/* Common Shared Style */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* Header Section Style */
+.header {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.header-container {
+  padding: 215px 230px 186px 200px;
+  text-align: right;
+  float: right;
+  width: 530px;
+}
+.header-title {
+  color: #fff;
+  text-align: right;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header-description {
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.contact {
+  padding: 20px 25px;
+  background: #fff;
+  color: #005fac;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* Failure Section Style */
+.failure-section {
+  margin: 140px 0;
+}
+.failure-container {
+  display: flex;
+  gap: 125px;
+  align-items: center;
+  margin: 240px;
+}
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-description {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.failure-column {
+  width: 50%;
+}
+.failure-img {
+  height: 520px;
+}
+.icon {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.icon .fa-check {
+  color: #16d887;
+}
+
+/*My Plan related Style  */
+/* .my-plan {
+  width: 0 auto;
+}
+.my-plan-title {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+*/
+.my-plan-title {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+.my-plan-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.my-plan-content {
+  text-align: center;
+  margin-bottom: 135px;
+}
+.my-plan-content img {
+  margin-bottom: 25px;
+}
+.my-plan-title {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+.my-plan-content h4 {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.my-plan-content p {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
