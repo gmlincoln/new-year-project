@@ -79,7 +79,9 @@ body {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 8px;
+}
+.icon p {
+  margin-bottom: 15px;
 }
 .icon .fa-check {
   color: #16d887;
