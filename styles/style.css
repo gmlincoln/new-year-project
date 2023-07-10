@@ -82,18 +82,7 @@ body {
 }
 
 /*My Plan related Style  */
-/* .my-plan {
-  width: 0 auto;
-}
-.my-plan-title {
-  color: #151414;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 55px;
-}
 
-*/
 .my-plan-title {
   color: #151414;
   text-align: center;
@@ -133,3 +122,82 @@ body {
   text-align: center;
   font-size: 25px;
   font-weight: 500;
+}
+.contact-container {
+  margin-bottom: 200px;
+}
+.contact-content {
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
+
+  padding: 60px 0 60px 65px;
+  margin: 0 7%;
+}
+
+.contact-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  width: 470px;
+}
+/* Footer Related Style */
+.footer-container {
+  background: #151414;
+  color: #fff;
+  display: flex;
+  gap: 300px;
+}
+.footer-column {
+  padding: 130px 100px;
+  width: 50%;
+}
+.footer-title-left {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-content p {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+.social-link {
+  margin-top: 10px;
+}
+.social-link a img {
+  margin-right: 20px;
+}
+.footer-title-right {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-form input {
+  display: block;
+}
+.footer-column input[type="email"] {
+  background: #151414;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.btn-subscribe {
+  border-radius: 8px;
+  background: #005fac;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  padding: 20px 35px;
+}
